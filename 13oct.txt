@@ -1,0 +1,18 @@
+namespace compras_en_bodega
+{
+    public partial class bodega : Form
+    {
+        public bodega()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double precio,total
+            precio=Convert.ToDouble(precio_txt.Text);
+
+
+        }
+    }
+}
